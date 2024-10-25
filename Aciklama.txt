@@ -1,0 +1,29 @@
+Şifreleme ve Şifre Çözme Kodları İçin Açıklamalar
+Şifreleme Kod Açıklaması
+Bu bölümde, bir metni şifrelemek için adım adım işlemler gerçekleştirilir. İşlem süreci, metnin ikili koda dönüştürülmesi, bu ikili kodun parçalara ayrılması ve ardından rastgele karıştırılması adımlarını içerir.
+
+Metni İkili Kodlama: Verilen metni alarak ASCII karakterlerine ve ardından 8-bit ikili kod dizilerine dönüştürür. Her karakter 8-bitlik bir ikili diziyi temsil eder.
+
+İkili Kodu Parçalara Ayırma: İkili kod dizisini belirtilen uzunlukta parçalara böler. Böylece, uzun bir ikili kod dizisi daha küçük parçalara ayrılır.
+
+Parçaları Rastgele Karıştırma: Parçaları rastgele karıştırarak şifrelemeyi daha güvenli hale getirir. Karıştırılmış parçalar birleştirilir ve yeni şifrelenmiş ikili kod dizisi oluşturulur.
+
+Şifrelenmiş Metin Oluşturma: Yukarıdaki adımları kullanarak verilen metni şifreler. Metni ikili koda dönüştürür, parçalar ve rastgele karıştırır. Şifrelenmiş metin, bu fonksiyonun çıktısıdır.
+
+Şifre Çözme Kod Açıklaması
+Bu bölümde, şifrelenmiş metni orijinal haline dönüştürmek için gerekli adımlar gerçekleştirilir. İşlem süreci, şifrelenmiş ikili kodun parçalara ayrılması, düzenlenmesi ve ardından metne dönüştürülmesi adımlarını içerir.
+
+Parçaları Düzenleme: Şifrelenmiş metnin parçalarını düzenler ve orijinal sıralarına göre yeniden sıralar. Bu, şifrelenmiş metni çözmek için ilk adımdır.
+
+İkili Kodu Metne Dönüştürme: İkili kod dizisini alarak orijinal metne dönüştürür. Her 8-bitlik ikili dizi, ASCII karakterine dönüştürülür.
+
+Şifrelenmiş Metni Çözme: Şifrelenmiş metni orijinal haline dönüştürmek için tüm adımları içerir. Şifrelenmiş metni düzenler ve ikili kodu orijinal metne dönüştürür.
+
+Kullanım Örneği
+Son olarak, bu şifreleme ve çözme fonksiyonlarının nasıl kullanılacağını gösteren bir örnek:
+
+Günlük Şifreleme: Bir günlük metnini şifreler.
+
+Günlük Çözme: Bu şifrelenmiş metni orijinal haline çözer.
+
+Bu açıklamalar, şifreleme ve çözme süreçlerinin adım adım nasıl işlediğini detaylandırır. Her adımda gerçekleştirilen işlemler ve bu işlemlerin kod karşılıkları verilmiştir.
